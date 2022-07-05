@@ -4117,6 +4117,7 @@ self.C3_JsPropNameTable = [
 	{Sprite4: 0},
 	{ShadowCaster: 0},
 	{Icons: 0},
+	{buttonNumber: 0},
 	{rect: 0},
 	{LatterBG: 0},
 	{MusicIcon: 0},
@@ -4594,7 +4595,15 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => (and("https://twitter.com/intent/tweet?text=Join me in Trash Hunting! ", v0.GetValue()) + " is my high score! How far do you think you can get? Start playing the game here: http://savingourblue.gov.mt");
 		},
-		() => "https://www.facebook.com/sharer/sharer.php?u=https://savingourblue.gov.mt"
+		() => "https://www.facebook.com/sharer/sharer.php?u=https://savingourblue.gov.mt",
+		() => 351,
+		() => 350,
+		() => 592,
+		() => 591,
+		() => 712,
+		() => 711,
+		() => 834,
+		() => 833
 ];
 
 
